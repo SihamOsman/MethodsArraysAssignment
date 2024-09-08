@@ -1,4 +1,10 @@
-public class Main{
+
+public class Main {
+    public static void main(String[] args) {
+        getStudentGrades(2);
+        getStudentGrades(1);
+        getStudentGrades(5);
+    }
     static String[] students = {"Siham", "Bob", "Fred"};
     static double[] grades = {3.4, 3.2, 4.0, 3.9};
 
@@ -8,11 +14,5 @@ public class Main{
         } else {
             System.out.println("Invalid index");
         }
-    }
-
-    public static void main(String[] args) {
-        getStudentGrades(2);
-        getStudentGrades(1);
-        getStudentGrades(5);
     }
 }
